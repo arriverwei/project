@@ -406,13 +406,14 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 			}
 			.showimgbottom{
 				width: 300px;
-				
+				height: 90px;
 				float:inherit;
 			}
 			 .showimgbottom img{
 				width: 66px;
 				height: 90px;
 				border: 1px solid #CCCCCC;
+				margin-top: -80px;
 			}
 			.imgbox{
 				display: none;
@@ -437,8 +438,94 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				height: 150px;
 				width: 150px;
 				background: rgba(0,0,0,0.5);
-				position: absolute;
+				position: relative;
 				left: 0;
 				top:0;
-				
+			}	
+			/*商品详情*/
+			 
+			.nav-con{
+				height: 10500px;
 			}
+			.main{
+				height: 10500px;
+			}	
+		   .nav-con .main ol{
+		   	height: 41px;
+		   	width: 1090px;
+		   	border: #C5C5C5 solid 1px;
+		   }
+		   .nav-con .main ol li{
+		   	float: left;		   			   	
+		   }
+		   .nav-con .main ol li a{
+		   	color: #000000;
+		   	font-size: 14px;
+		   	line-height: 41px;
+		   	border-right: #CCCCCC solid 1px;
+		   	padding: 0 20px;
+		   }
+		    .nav-con .main h1{
+		    	margin-top: 10px;
+		    	margin-left: 20px;
+		    	width: 1040px;
+		    	height: 60px;
+		    	font-size: 22px;
+		    	font-weight: 300;
+		    	line-height: 60px;
+		    	border-bottom: #000000 solid 1px;
+		    }	
+		    .nav-con .main h1 i{
+		    	display: inline-block;
+		    	height: 20px;
+		    	width: 266px;
+		    	background-image:url(../images/tit_icon_1.png) ;
+		    	background-position: 0px -25px;
+		    	position: relative; 
+		    	top:2px;
+		    }	
+		    .nav-con  span{
+		        margin-left:50px ;
+		    	line-height: 56px;
+		    	color: #6C6C6C;
+		    }
+		    .nav-con .i{
+		    	background-image:url(../images/tit_icon_1.png) ;
+		    	background-position: 0 -45px;
+		    }
+		    .nav-con  .news{
+		    	height: 500px;
+		    	width:1090px;
+		    	
+		    }
+		    .nav-con  .news p{
+		    	font-size: 14px;
+		    	height: 20px;
+		    	color: #6C6C6C;
+		    	margin: 0 0 10px 80px;		    
+		    }
+		    .nav-con  .news span{
+		    	display: inline;
+		    	margin: 0;		    	
+		    }	
+			.nav-con  .news-left{
+				height: 200px;
+				width: 450px;
+			}
+			.nav-con  .news-right{
+				height: 500px;
+				width: 400px;
+				float: right;
+				 margin-top: -200px;
+				 position: relative;
+			}
+			.nav-con  .i2{
+		    	background-image:url(../images/tit_icon_1.png) ;
+		    	background-position: 0 -65px;
+		    }
+		    .nav-con .news-main{
+		    	height: 1000px;
+		    	width: 1090px;
+		    }
+		    
+			
