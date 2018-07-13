@@ -29,12 +29,12 @@ function glass(){
 		var	ev=ev||window.event;
 		this.width=ev.clientX-this.main.offsetLeft-this.movebox.offsetWidth/2;
 		this.maxWidth=this.showimg.clientWidth-this.movebox.offsetWidth
+		
 		if(document.documentElement.scrollTop){
 		this.height=ev.clientY-this.clearfix.offsetTop-this.movebox.offsetHeight/2+document.documentElement.scrollTop;
-		this.maxHeight=this.showimg.clientHeight-this.movebox.offsetHeight
-		
+		this.maxHeight=this.showimg.clientHeight-this.movebox.offsetHeight		
 		}else{
-			this.height=ev.clientY-this.clearfix.offsetTop-this.movebox.offsetHeight/2;
+		this.height=ev.clientY-this.clearfix.offsetTop-this.movebox.offsetHeight/2;
 		this.maxHeight=this.showimg.clientHeight-this.movebox.offsetHeight
 		}
 		

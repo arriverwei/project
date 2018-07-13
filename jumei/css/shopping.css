@@ -57,3 +57,198 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				width: 377px;
 				background-image:url(../images/order_path.png) ;
 			}
+			.shoppingcar{
+				
+			}
+			.shoppingcar .main{
+				
+			}
+			.shoppingcar-top{
+				margin-top: 20px;
+				height: 53px;
+				width: 1090px;
+				
+			}
+			.shoppingcar .main .shoppingcar-top-left{
+				height: 24px;
+				width: 350px;
+				float: left;
+				font-size: 14px;
+			}
+			.shoppingcar .main .shoppingcar-top-right{
+				height: 30px;
+				width: 350px;				
+				float: right;
+				font-size: 14px;
+			}	
+			.shoppingcar .main .shoppingcar-top-right .icon-30{
+				color: #E81A62;
+				font-size: 18px;
+			}
+			.shoppingcar .main .shoppingcar-top-right .icon-baozhen,.icon-huoche{
+				color: #E81A62;
+				border: 1px solid #E81A62;
+				padding: 3px;				
+				border-radius: 50%;
+			}
+			.shoppingcar .main .shoppingcar-top-bottom{
+				height: 23px;
+				width: 1090px;
+				float: left;
+				font-size: 14px;
+				color: darkorange;
+			}
+			.shoppingcar-main table .car-over-view{
+				height: 35px;
+				width: 600px;
+				text-align: left;
+				font-weight:600;
+				font-size: 14px;
+			}
+			
+			.shoppingcar-main table .car-price{
+				height: 35px;
+				width:116px ;
+				font-size: 14px;
+			}
+			.shoppingcar-main table .car-num{
+				height: 35px;
+				width:116px ;
+				font-size: 14px;
+			}
+			.shoppingcar-main table .car-money{
+				height: 35px;
+				width:116px ;
+				font-size: 14px;
+			}
+			.shoppingcar-main table .car-option{
+				height: 35px;
+				width:116px ;
+				font-size: 14px;
+			}
+			.shoppingcar-main table thead{
+				background: #EEEEEE;
+			}
+			.shoppingcar-main table tfoot{
+				background: #EEEEEE;
+				text-align: right;
+			}
+			.shoppingcar-main .tbody-tr{
+				height: 100px;
+			}
+			.shoppingcar-main	.car-clearfix{
+				height: 100px;
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-left .car-inp{
+				margin: 35px 0 0 10px;
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-left{
+				width: 20px;
+				height: 100px;
+				float: left;
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-img{
+				width: 100px;
+				height: 100px;
+				float: left;
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-img a img{
+				margin: 20px 0 0 10px;
+				width: 100%;
+				
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-main{
+				float: left;
+				height: 100px;
+			}
+			.shoppingcar-main	.car-clearfix	.clearfix-main p{
+				font-size: 14px;
+				line-height: 30px;
+			}
+			.shoppingcar-main .price-box .true-price{
+				font-size: 14px;
+				text-align: center;
+			}
+			.shoppingcar-main .price-box .mark-price{
+				font-size: 14px;
+				text-decoration: line-through;
+				text-align: center;
+				color: #C5C5C5;
+			}
+			.shoppingcar-main .car-number .car-number-text{
+				width: 30px;
+				height: 20px;
+				float: left;
+				text-align: center;
+			}
+			.shoppingcar-main .car-number{
+				height: 25px;
+				width: 100px;
+				margin-left: 13px;
+			}
+			.shoppingcar-main .car-number .car-span{
+				height: 22px;
+				width: 22px;
+				display: inline-block;
+				border: 1px solid #CCCCCC;
+				float: left;
+				text-align: center;
+			}
+			.shoppingcar-main .pay-price{
+				font-size: 14px;
+				text-align: center;
+			}
+			.shoppingcar-main .pay-price .save-price{
+				color: #E81A62;
+			}
+			.shoppingcar-main .td-option{
+				text-align: center;
+			}
+			.shoppingcar-main table tfoot b{
+				color: #E81A62;
+			}
+			 .common-hander{
+			 height: 55px;
+			 width: 1074px;
+			 background: #EEEEEE ;
+			 margin-top: 20px;
+			}
+			 .common-hander .car-wraper{
+				float: left;
+				width: 50px;
+				height: 55px;				
+				font-size: 14px;
+			}
+			.common-hander .car-wraper label input{
+				margin-top: 20px;
+			}
+			.common-hander .car-wraper-center{
+				width:300px;
+				float: left;
+			}
+     		.common-hander .car-wraper-center a{
+     			color: #6C6C6C;
+     			font-size: 14px;
+     			line-height: 55px;
+     			margin-left:10px ;
+     		}
+     		.common-hander .car-wraper-center .go-back-shop{
+     		
+     			padding-right: 10px;
+     			border-right: solid 1px #CCCCCC;
+     		}
+     		.common-hander .car-wraper-right{
+     			float: right;
+     			line-height: 55px;
+     		}
+     		.common-hander .car-wraper-right b{
+     			color: #E81A62;
+     		}
+     		.common-hander .car-wraper-right a{
+     			display: inline-block;
+				height: 55px;
+				width: 100px;
+				text-align: center;
+				background: #E81A62;
+				color: white;
+     		}

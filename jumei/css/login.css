@@ -48,6 +48,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				font-size: 14px;
 				color: #000;
 				padding-left: 5px;
+				
 			}
 			.inp1{
 				margin-left: 20px;
@@ -74,7 +75,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 			}
  			.number{
  				line-height: 30px;
- 				width: 130px;
+ 				width: 80px;
  				display: inline-block;
  				background: #CCCCCC;
  				text-align: center;
@@ -100,4 +101,10 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 			}
 			.box2{
 				display: none;
+			}
+			 .form .spanbox{
+				font-size: 12px;
+				display: inline-block;
+				width: 50px;
+				height: 16px;
 			}

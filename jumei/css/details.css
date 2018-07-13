@@ -316,12 +316,12 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				float: left;				
 			}
 			.showright{
-				margin-left: 20px;
+				margin-left: 100px;
 				height: 595px;
 				width: 385px;
 				float: left;
 			}
-			.showright p:nth-child(1){
+			.showright .name{
 				margin:20px 0;
 				height: 30px;
 				width:350px;
@@ -329,7 +329,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				color: #000000;
 				font-weight: 600;
 			}
-			.showright p:nth-child(2){
+			.showright .price{
 				height: 38px;
 				width: 93px;
 				font-size: 22px;
@@ -340,7 +340,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				color: #6C6C6C;
 				margin-bottom: 10px;
 			}
-			.showright p:nth-child(4){
+			.showright .price-num{
 				height: 20px;
 			    width: 60px;
 				background: #404040;
@@ -349,7 +349,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				font-size: 12px;
 				color: #6C6C6C;
 			}			
-			.showright p:nth-child(6){
+			.showright .freight{
 				margin: 20px 0;
 				border-bottom:1px #CCCCCC dashed;
 				width: 380px;
@@ -389,6 +389,26 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				height: 34px;
 				width: 380px;
 			}
+			.car-number{
+				height: 25px;
+				width: 100px;
+				margin-left: 50px;
+				margin-top: -32px;
+			}
+			.car-number .car-span{
+				height: 22px;
+				width: 22px;
+				display: inline-block;
+				border: 1px solid #CCCCCC;
+				float: left;
+				text-align: center;
+			}
+			.car-number-text{
+				width: 30px;
+				height: 20px;
+				float: left;
+				text-align: center;
+			}
 			#btn{
 				height: 40px;
 				width: 150px;
@@ -405,15 +425,19 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				font-size: 12px;
 			}
 			.showimgbottom{
-				width: 300px;
-				height: 90px;
-				float:inherit;
+				width: 900px;
+				height: 100px;
+				float:left;
+				margin-top: -100px;
 			}
+			
+			
+			
 			 .showimgbottom img{
 				width: 66px;
 				height: 90px;
 				border: 1px solid #CCCCCC;
-				margin-top: -80px;
+				margin-top: 5px;
 			}
 			.imgbox{
 				display: none;

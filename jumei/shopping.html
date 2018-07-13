@@ -4,12 +4,13 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_722341_8w0xk98llq6.css"/>
 	</head>
 	<body>
 		<div class="header">
 			<div class="main">
 				<div class="head">
-					<span>聚美优品欢迎您，<a href="login.html">登录</a><a href="registered.html">注册</a>
+					<span>聚美优品欢迎您，<a href="login.html">登录</a><a href="registered.html">免费注册</a>
 					</span>
 				</div>
 			</div>
@@ -24,8 +25,106 @@
 					</div>
 				</div>  <!----nav main---->	
 			</div>	 <!----nav---->	
-			<div class="">
-				
-			</div>
+			<div class="shoppingcar">
+				<div class="main">
+					<div class="shoppingcar-top">
+						<div class="shoppingcar-top-left">
+							<span class="top-left-span">已放入一件商品，请尽快结算</span>
+						</div>
+						<div class="shoppingcar-top-right">
+							<span><i class="iconfont icon-baozhen"></i>真品防伪码</span>
+							<span><i class="iconfont icon-30"></i>30天无条件退换</span>
+							<span><i class="iconfont icon-huoche"></i>满299包邮</span>
+						</div>
+						<div class="shoppingcar-top-bottom">
+							<p>新用户首单满39元包邮,自营非食品类满两件或满299元包邮</p>
+						</div>
+					</div> <!--top-->
+					<div class="shoppingcar-main">
+						<table border="1" cellspacing="0" cellpadding="0">
+							<thead>
+								<tr>
+									<th class="car-over-view">				
+											<input type="checkbox" class="car-inp" />										
+										<span>聚美发货</span>
+									</th>								
+									<th class="car-price">聚美价（元）</th>
+									<th class="car-num">数量</th>
+									<th class="car-money">小计（元）</th>
+									<th class="car-option">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tbody-tr">
+									<td>
+										<div class="car-clearfix">
+											<div class="clearfix-left">
+												<input type="checkbox" class="car-inp" />
+											</div>
+											<div class="clearfix-img">
+												<a href="#"><img src="images/shoppingcar1.jpg"/></a>
+											</div>
+											<div class="clearfix-main">
+												<p>花印水漾洁净洗面乳150g</p>
+												<p>容量：150g</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="price-box">
+											<p class="true-price">39.00</p>
+											<p class="mark-price">65.00</p>
+										</div>
+									</td>
+									
+									<td>
+										<div class="car-number">
+											<span class="car-span">-</span><input type="text" class="car-number-text" value="1"/><span class="car-span">+</span>
+										</div>
+									</td>
+									<td>
+										<div class="pay-price">
+											<p class="total-price">39.00</p>
+											<p class="save-price">省26.00</p>
+										</div>
+									</td>
+									<td>
+										<div class="td-option"><i class="iconfont icon-lajixiang"></i></div>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="5"><span>商品金额：<b class="payfor-money">￥39.00</b></span></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+			    <div class="common-hander">
+			    	<div class="car-wraper">
+			    		<label for=""><input type="checkbox"   value="" />全选</label>
+			    	</div>
+			    	<div class="car-wraper-center">
+			    		<a href="#" class="go-back-shop">继续购物</a>
+			    		<a href="#"class="clear-shop" >清空选中物品</a>
+			    	</div>
+			    	<div class="car-wraper-right">
+			    		<span>共<b>1</b>件商品</span>
+			    		<span>应付总额：<b>￥39.00</b></span>
+			    		<a href="#" class="go-to-order">去结算</a>
+			    	</div>
+			    </div>
+			
+				</div> <!--main-->
+			</div> <!--shoppingcar-->
 	</body>
 </html>
+<script src="js/jquery.js"></script>
+<script src="js/shopping.js"></script>	
+<script type="text/javascript">
+//	var date=new Date(2018,6,12)
+//	console.log(date.getFullYear())
+//	console.log(date.getMonth())
+//	console.log(date.getDay())
+</script>
+

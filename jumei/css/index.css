@@ -307,7 +307,7 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 			.content p{
 				text-align: center;
 			}
-			.content p a{
+			.content p b{
 				margin: 10px 0 10px 0;
 				display: inline-block;
 				height: 44px;
@@ -315,14 +315,18 @@ html,body,ol,li,ul,img,h1,h2,h3,h4,p,input{
 				border:1px solid #000;
 				line-height: 44px;
 				color: #AFAFAF;
+				cursor: pointer;
 			}
-			.content p a:hover{
+			.content p b:hover{
 				background: #6C6C6C;
 				color: #000;
 			}
 			.content-main a img{
 				height: 212px;
 				width: 535px;
+			}
+			.content-right{
+				display: none;
 			}
 			.content-main a{
 				margin:10px 5px 0 0 ;
